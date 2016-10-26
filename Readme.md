@@ -10,6 +10,9 @@ Dependências são modulos que seu projeto necessita para rodar, enquanto denpen
 
 - devDependência: mocha, tape, eslint, grunt, browserify...  
 
+####Modulos globais
+Com o npm também podemos instalar um modulo global. Um modulo global tem a função de ser executado em linha de comando. Sua instalação é feita pelo seguinte comando: `npm install --global nome` ou `npm install -g nome`
+
 ##O que é package.json  
 
 É onde o npm gerencia, ou seja, é a raiz do seu projeto, onde está todas as informações, como por exemplo:  
